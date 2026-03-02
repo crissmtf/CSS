@@ -1,0 +1,20 @@
+h1{
+    color: green;
+}
+
+h2{ 
+    background-color: rgb(246, 0, 139);
+    color: aquamarine;
+    width: 250px;
+}
+
+p{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+button{
+    background-color: pink;
+    color: red #FF0000;
+
+}
