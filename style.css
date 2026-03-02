@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 226, 123);
+    align-items: baseline
+}
+
+/* primeira página */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: rgb(186, 186, 186);
+    border: solid white;
+    text-align: center;
+    max-width: 500px;
+    min-width: 320px;
+    width: 100%;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+nav {
+    display: inline-flex;
+    gap: 18px;
+    font-size: 10px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 166, 0, 0.314);
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: solid white;
+    background-color: rgb(186, 186, 186);
+    max-width: 500px;
+    border-radius: 10%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+#titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px black;
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+#foto1 {
+    border-radius: 5px;
+    border: solid 1px;
+    margin-bottom: 20px;
+}
+
+
+
+
+nav a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: large;
+    text-shadow: 2px 2px 4px black;
+    color: rgb(210, 7, 7);
+    -webkit-text-stroke: 0.5px white;
+}
+
+/* pagina quem sou eu */
+
+
+/* menu navegação */
+#nav2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    top: 0;
+}
+
+
+#nav2 a {
+    margin-right: 20px;
+}
+
+#nav2 a:hover {
+    color: aliceblue;
+}
+
+/* fim menu navegaçao */
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(143, 0, 0);
+    text-shadow: 2px 2px 5px white;
+    margin-top: 10px;
+    text-align: start;
+
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-right: 315px;
+    color: rgb(143, 0, 0);
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+#foto {
+    width: 100%;
+    padding: 10px;
+
+}
+
+#back {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    /* margin-right: 400px; */
+    margin-bottom: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* fim quem-sou-eu */
+
+/* secçao-os-meus-hobbies */
+
+#titulo-hobbies {
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    color: red;
+}
+
+#container2 {
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+    justify-content: start;
+    align-items: center;
+    border: solid salmon;
+    background-color: beige;
+
+}
+
+#lista {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+ul {
+    list-style: none;
+}
+
+#imagens {
+    width: 100%;
+    padding: 20px;
+
+
+}
+
+/* fim hobbies */
+
+/* Tarefas */
+
+ol {
+    list-style: none;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(186, 186, 186);
+    border: solid white;
+    text-align: center;
+    max-width: 500px;
+    min-width: 320px;
+    width: 100%;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* fim-tarefas */
+
+/* horario */
+
+#horario {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(143, 0, 0);
+    text-shadow: 2px 2px 5px white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%
+}
+
+table {
+    width: 100%;
+}
+
+th{ color: yellow;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 320px) {
+    .menu {
+        background-color: red;
+        width: 100%;
+        padding: auto;
+    }
+
+    .menu2 {
+        background-color: red;
+        width: 100%;
+        padding: auto;
+    }
+
+    p{
+        width: 100%;
+    }
+
+    #lista {
+        background-color: red;
+    }
+
+    #container {
+        background-color: red;
+        width: 100%;
+    }
+
+    #nav2 {width: 100%;}
+
+
+
+}
